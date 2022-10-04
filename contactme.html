@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--HTML5 Doctype-->
+<html lang="en">
+
+<head>
+
+    <!--The below code links to the style.css file-->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!--The below code links to the style.css file for tablet view-->
+    <link rel="stylesheet" type="text/css" href="./style-tablet.css">
+    <!--The below code links to the style.css file for mobile view-->
+    <link rel="stylesheet" type="text/css" href="./style-tablet.css">
+
+    <!-- this is the tab title of this page -->
+    <title>Contact me</title>
+    <meta charset="UTF-8">
+    <!-- this sets the width of page to follow the screen-width of the device -->
+    <!-- this sets the initial zoom level to 1.0 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-- form is starting from here -->
+    <form class="contct-me-form">
+        <div class="form-heading">
+            <h2>Contact Me</h2>
+            <p>Send me your questions, comments and project related queries.</p>
+        </div>
+
+        <!-- this is name input -->
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" class="form-input">
+
+        <!-- this is email input -->
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" class="form-input" pattern="[^ @]*@[^ @]*">
+
+        <!-- this is cell number input. -->
+        <label for="cell-no">Cell No.:</label>
+        <input type="tel" id="cell-no" class="form-input">
+
+        <!-- this is input for any message or comment -->
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="30" rows="10" class="form-input form-textarea"
+            placeholder="Write down your message, comment and query here."></textarea>
+
+        <label for="robotcheck">*What is 2+19? (So I know you aren't a robot.) </label>
+        <input type="number" id="robotcheck" class="form-input">
+
+        <!-- form sumbit button -->
+        <button>
+            Submit
+        </button>
+    </form>
+    <!-- form is ending here -->
+
+
+    <!-- footer is starting here -->
+    <footer class="footer">
+        <div class="footer-info">
+            <img src="./IMG_3113.jpg" alt="Dharun Raju">
+            <p>My name is Dharun Raju.
+                <br>
+                Email: dharun.raju@ontariotechu.net
+            </p>
+        </div>
+
+        <!-- copyright -->
+        <p class="footer-copyright">COPYRIGHT © 2022 By Dharun Raju </p>
+    </footer>
+    <!-- footer is ending here -->
+</body>
+
+</html>
+
+
+<!--      
+    form  label-input
+-->
