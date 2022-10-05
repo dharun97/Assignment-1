@@ -1,0 +1,44 @@
+
+@media only screen and (max-width:768px) {
+
+    /* with is changed for tablet view */
+    .contct-me-form {
+      background-color: #f6f6f8;
+      width: 70vw;
+      margin: 1rem auto;
+      padding: 2rem 2rem;
+    }
+  
+    /* introduction text is changed for tablet */
+    .about-me-details article {
+      margin: 2rem 0;
+      width: 60vw;
+  
+    }
+  
+    /* video width is changed for tablet media query */
+    .about-me-container video {
+      height: auto;
+      width: 70vw;
+    }
+  
+    /* single card is given column direction for flex-items of single box */
+    .project-single {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem 0;
+      width: 70vw;
+      height: auto;
+    }
+    /* width of text portion is incresed in tablet view */
+    .project-details{
+      width: 100%;
+      padding-right: 0vw;
+    }
+    /* width of img is incresed in tablet view */
+    .project-single .project-img {
+      width: 70%;
+      align-self: center;
+      margin-top: 1rem;
+    }
+  }
